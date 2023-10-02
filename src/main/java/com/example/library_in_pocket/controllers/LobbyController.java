@@ -10,5 +10,6 @@ public class LobbyController {
     public  String lobby(Model model){
         model.addAttribute("title", "Холл библиотеки");
         return "lobby";
+
 }
     }
